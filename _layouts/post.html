@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<style>
+body {
+  background-image:url({{ page.bg-img }});
+}
+</style>
+
+<div class="tree">
+
+  <div class="header"><img src="{{ page.profile-pic }}"  class="profile-pic" /></div>
+  <div class="username">@{{ page.slug }}</div>
+
+{{ page.content }}
+
+      <div class="footer">
+          <p>Copyright &copy; {{ site.title }} - All Rights Reserved.</p>
+      </div>
+  
+</div>
+

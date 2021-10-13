@@ -1,0 +1,32 @@
+title: LNKTR.ME
+description: The Only Link You’ll Ever Need
+google_analytics: UA-39342544-37
+fathom_analytics:
+include:
+ - _posts
+ - _pages
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /:slug
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"      
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

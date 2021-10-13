@@ -1,0 +1,34 @@
+body {
+  margin: 4em 2em;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:#000000;
+  background-style:flat;
+  height:100%;
+}
+.tree {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+.tree .username {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 2em;
+}
+.tree .links a {
+  margin: 0.75em auto;
+}
+.tree .footer {
+  margin: 2rem;
+}
+.tree .profile-pic {
+  width: 110px;
+  border-radius: 50%;
+  text-align: center;
+}
+a.btn {
+  background-color: #fff;
+}
